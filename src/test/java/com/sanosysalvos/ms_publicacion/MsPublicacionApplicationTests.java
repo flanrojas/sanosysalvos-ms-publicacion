@@ -10,4 +10,9 @@ class MsPublicacionApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void applicationContextTest() {
+		MsPublicacionApplication.main(new String[] {});
+	}
+
 }
